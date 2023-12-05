@@ -7,8 +7,8 @@ const Card = ({ label, description, bgColor, image }) => {
     <div className="bg-white rounded-[0.5rem] w-[350px] h-[250px] overflow-hidden shadow">
       <div className={clsx(`${bgColor} h-[4px]`)} />
       <div className="p-[30px] grid h-full w-full">
-        <p>{label}</p>
-        <p>{description}</p>
+        <p className="text-VeryDarkBlue font-semibold">{label}</p>
+        <p className="text-GrayishBlue">{description}</p>
         <img src={image} className="w-[64px] justify-self-end self-end" />
       </div>
     </div>
