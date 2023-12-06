@@ -11,6 +11,7 @@ export default {
         Blue: "hsl(212, 86%, 64%)",
         VeryDarkBlue: "hsl(234, 12%, 34%)",
         GrayishBlue: "hsl(229, 6%, 66%)",
+        GrayishBlueShadow: "hsl(229, 35%, 90%)",
         VeryLightGray: "hsl(0, 0%, 98%)",
       },
       screens: {

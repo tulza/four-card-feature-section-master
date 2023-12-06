@@ -4,7 +4,7 @@ import PropTypes from "prop-types";
 
 const Card = ({ label, description, bgColor, image }) => {
   return (
-    <div className="bg-white rounded-[0.5rem] w-[350px] h-[250px] mob:w-[310px] mob:h-[220px] overflow-hidden shadow-lg shadow-GrayishBlue">
+    <div className="bg-white rounded-[0.5rem] w-[350px] h-[250px] mob:w-[310px] mob:h-[220px] overflow-hidden shadow-lg shadow-GrayishBlueShadow">
       <div className={clsx(`${bgColor} h-[4px]`)} />
       <div className="p-[30px] grid h-full w-full">
         <span className="text-VeryDarkBlue text-[20px] font-semibold">
