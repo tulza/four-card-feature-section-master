@@ -4,7 +4,7 @@ import { IMGteam, IMGkarma, IMGcalculator, IMGsupervisor } from "./images.jsx";
 
 const CardsBox = () => {
   return (
-    <div className="grid grid-cols-3 items-center gap-[2rem]">
+    <div className="grid grid-cols-3 mob:grid-cols-1 items-center gap-[2rem] mx-auto">
       <Card
         label="Supervisor"
         description="Monitors activity to identify project roadblocks"

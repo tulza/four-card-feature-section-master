@@ -13,7 +13,9 @@ export default {
         GrayishBlue: "hsl(229, 6%, 66%)",
         VeryLightGray: "hsl(0, 0%, 98%)",
       },
-      screens: {},
+      screens: {
+        mob: { max: "1150px" },
+      },
       fontFamily: {},
       transitionProperty: {},
     },

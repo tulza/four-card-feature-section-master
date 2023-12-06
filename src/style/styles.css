@@ -2,6 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-#root {
-  @apply bg-VeryLightGray h-[100vh] flex justify-center items-center;
+html {
+  @apply bg-VeryLightGray h-[100vh] flex justify-center overflow-scroll;
 }
